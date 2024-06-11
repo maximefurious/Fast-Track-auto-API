@@ -31,4 +31,6 @@ jobs:
             cd /www/wwwroot/Fast-Track-auto-API
             git pull
             git status
+            npm install
+            npm run dev
 
