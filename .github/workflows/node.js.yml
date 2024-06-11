@@ -29,5 +29,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /www/wwwroot/Fast-Track-auto-API
-            git pull origin main
+            git pull
             git status
+
