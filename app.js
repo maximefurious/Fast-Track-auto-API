@@ -22,4 +22,6 @@ app.use(
     }),
 );
 
+app.use("/", require("./routes/testRoutes"));
+
 module.exports = app;
