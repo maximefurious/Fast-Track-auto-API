@@ -28,6 +28,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /www/wwwroot/app
+            cd /www/wwwroot/Fast-Track-auto-API
             git pull origin main
             git status
