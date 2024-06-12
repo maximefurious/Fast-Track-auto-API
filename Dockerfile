@@ -1,7 +1,7 @@
 FROM bigpapoo/r5a05-node
 LABEL authors="maximefurious"
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
 COPY package*.json ./
 
