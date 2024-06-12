@@ -1,3 +1,3 @@
 exports.test = (req, res) => {
-    res.status(200).json({message: "Test route"});
+    res.status(200).json({message: "Test routesssss"});
 }
