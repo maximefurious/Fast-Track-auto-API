@@ -1,7 +1,7 @@
 FROM node:alpine
 LABEL authors="maximefurious"
 
-WORKDIR /usr/app
+WORKDIR /app
 
 COPY package*.json ./
 
