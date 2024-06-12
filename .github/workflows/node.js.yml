@@ -27,4 +27,4 @@ jobs:
             printenv | grep POSTGRES
             docker compose down
             docker image rm fast-track-auto-api
-            docker compose up
+            docker compose up -d
