@@ -1,8 +1,7 @@
 FROM node:alpine
 LABEL authors="maximefurious"
 
-WORKDIR /usr/app
-COPY ./ /usr/app
+WORKDIR /www/wwwroot/Fast-Track-auto-API
 
 COPY package*.json ./
 
@@ -16,3 +15,4 @@ COPY . .
 ENV PORT=3000
 
 EXPOSE 3000
+
