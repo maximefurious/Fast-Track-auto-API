@@ -4,8 +4,10 @@ services:
   api:
     container_name: fast-track-auto-api
     build:
-      context: ./
+      context: ./backend
       dockerfile: Dockerfile
+    volumes:
+      - ./backend:/usr/app
     ports:
       - ${API_PORT}:${API_PORT}
     environment:
