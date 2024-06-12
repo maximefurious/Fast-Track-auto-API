@@ -22,4 +22,9 @@ jobs:
           script: |
             cd /www/wwwroot/Fast-Track-auto-API
             git pull origin master
-            git status            
+            git status      
+            export API_PORT=${{ secrets.API_PORT }}
+            printenv | grep POSTGRES
+            docker compose down
+            docker image rm fast-track-auto-api
+            docker compose up
