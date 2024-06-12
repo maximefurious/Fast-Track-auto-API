@@ -1,7 +1,8 @@
-FROM bigpapoo/r5a05-node
+FROM node:alpine
 LABEL authors="maximefurious"
 
-WORKDIR /app
+WORKDIR /usr/app
+COPY ./ /usr/app
 
 COPY package*.json ./
 
